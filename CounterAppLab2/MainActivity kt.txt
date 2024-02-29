@@ -1,0 +1,37 @@
+package com.example.lab2incercare2
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.widget.Button
+import android.widget.TextView
+import android.widget.Toast
+
+class MainActivity : AppCompatActivity() {
+
+    private lateinit var textViewDisplayTextChange: TextView
+    private lateinit var buttonChangeDisplayText: Button
+    private lateinit var buttonIncrement: Button
+    private lateinit var textViewCounter: TextView
+
+    private var counter = 0
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        textViewDisplayTextChange = findViewById(R.id.textViewDisplayTextChange)
+        buttonChangeDisplayText = findViewById(R.id.buttonChangeDisplayText)
+        buttonIncrement = findViewById(R.id.buttonIncrement)
+        textViewCounter = findViewById(R.id.textViewCounter)
+
+        buttonChangeDisplayText.setOnClickListener {
+            textViewDisplayTextChange.text = "Use a toaster next time"
+        }
+
+        buttonIncrement.setOnClickListener {
+            counter++ // +1 la buton, duh
+            textViewCounter.text = counter.toString() // Update la ce se arata
+            Toast.makeText(this, "Counter: $counter", Toast.LENGTH_SHORT).show()
+        }
+    }
+}
