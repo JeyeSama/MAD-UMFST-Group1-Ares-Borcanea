@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Chapter3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hearing those words filled you up with determination that day, to make something of yourself, despite your humble beginnings. Though, with Mr. Harrison's hand being gently placed on your younger self's shoulder, the room fades away.
+
+You soon find yourself in the bustling city, the sound of cars, horns, people chatting and even the radio store playing those old tunes..Home.
+
+.The City.
+
+You walk alongside your parents, their faces filled with pride and excitement. The sun shines brightly overhead, casting a warm glow on the bustling city streets.
+
+
+
+Your father speaks to you in an encouraging tone, you can't help but feel good for the few moments you hear him again.
+
+You've been accepted into the prestigious arts school, son. It's a chance for a better future, a life where your talent can flourish.
+
+
+
+    Your mother, too. with tears in her eyes, speaks.
+
+    We believe in you, darling. We've made sacrifices for this opportunity, and we know you'll make us proud.
+
+
+
+    You nod, a mixture of gratitude and determination in your eyes. Little do you know, this path will lead to both triumph and tragedy."
+        android:textAlignment="center"
+        android:textColor="#8DEFD7"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+</FrameLayout>

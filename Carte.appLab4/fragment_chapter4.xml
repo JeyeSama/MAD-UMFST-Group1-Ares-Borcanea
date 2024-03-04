@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Chapter4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="You find yourself back in the present, tears welling in your eyes. The memories weigh heavy on your heart, the pain of loss and shattered dreams still raw.
+
+
+
+You clench your fists, feeling the remnants of the past. The music that once flowed through your fingertips silenced forever. Though you can't remember why..it simply hurts. What has happened to you back then?
+
+The memories fade, and you are left standing in the dimly lit room, your hands trembling.
+
+A sense of dread looms over you, as you take a walk outside of the room. The sound of the ship's doors sliding open, and as you exit, they close once more. It is odd, whenever you try to go to your room to relax, you find yourself simply laying down in bed. You don't need sleep anymore, hell..what good would it do anyway?
+
+Walking more through the ship, you find yourself in the central room once more. The flickering lights of all the screens..scanners..buttons, it's all overwhelming at this hour. So you turn your attention to the window. Before you is what little remains are left of the world you used to call home. 'Earth'."
+        android:textAlignment="center"
+        android:textColor="#96EAE0"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Chapter2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="As you walk up and touch the keys, you find yourself in another room. The air had an odd familiarity, the warm colours and the smell of cigarette smoke make you remember exactly where you are.
+
+Mr.Harrison's music room.
+
+A young version of yourself, filled with hope and determination, sits at the piano in a bustling music room. Your fingers dance across the keys, producing a beautiful melody that fills the air.
+
+
+
+The music teacher, Mr.Harrison, watches with awe and admiration. He recognizes your talent, nurturing it with guidance and encouragement.
+
+Soon, he speaks in his deep, yet wise tone. It is a bit hard to understand him at times, but you remember that it's simply all the cigarettes he's been smoking on the daily. The doctors used to say they're good for you back then. Hah, what a time to be alive.
+
+You have a gift, my boy. Your talent is boundless. Keep practicing, and one day, the world will marvel at your music."
+        android:textAlignment="center"
+        android:textColor="#8BEFE6"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+</FrameLayout>
