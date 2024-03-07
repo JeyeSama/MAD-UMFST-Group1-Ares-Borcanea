@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Chapter1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You wake up, your body heavy with a feeling you can't quite make out. As you open your eyes, you find yourself in a dimly lit room, the memories of your past flooding to your mind. The air feels thick with nostalgia, and the echoes of a bygone era resonate within the expanse.
+           \n\n You swing your legs over the side of the bed, feeling the coolness of the wooden floor beneath your bare feet. The room is filled with familiar objects, each carrying its own story:
+        \n
+            \n\nAn old television, reminding you of all the news you had watched at the time, but never fully understood.
+            \n\nYour first bike, that you nearly broke your arm when first riding it. What a fun day that was.
+            \n\nMaking your way through the hallway, the floorboards creak softly beneath your weight. The house is quiet, its emptiness a stark reminder of the life that once thrived within these walls.
+
+            \n\nDescending the stairs, guided by the flickering flame of a single candle, you enter the living room. It's a place that used to overflow with laughter and warmth, now transformed into a relic of memories.
+
+            \n\nYour gaze lands on the piano, standing proudly in the corner. The polished surface reflects the dim light, a reminder of your passion for music. Memories of melodies and the comforting touch of ivory keys flood your senses."
+                android:textAlignment="viewStart"
+                android:textColor="#75CFC4"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img"
+                android:importantForAccessibility="no" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
